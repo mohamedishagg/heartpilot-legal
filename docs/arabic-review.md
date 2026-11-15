@@ -84,36 +84,32 @@ One line needs a decision: *HeartPilot* is written « هارت بايلوت » i
 | 72 | FAQ | The daily check-ins, the medicines and whether doses were taken. You do not see the patient’s answers to the wellbeing check. | التسجيلات اليومية والأدوية وهل أُخذت الجرعات. لا ترى إجابات المريض عن فحص الحالة النفسية. | |
 | 73 | FAQ | Can the patient stop sharing? | هل يستطيع المريض إيقاف المشاركة؟ | |
 | 74 | FAQ | Yes. The patient chooses who to invite and can remove a caregiver at any time. Patients and caregivers can also delete their account inside the app. | نعم. المريض هو من يختار من يدعوه ويمكنه إزالة أي شخص في أي وقت. ويمكن للمريض ولأفراد العائلة أيضاً حذف حسابهم من داخل التطبيق. | |
-| 75 | FAQ | How is our data handled? | كيف تُعالج بياناتنا؟ | |
-| 76 | FAQ | Under our published Privacy Policy, which you can read before you join. | وفق سياسة الخصوصية المنشورة، ويمكنك قراءتها قبل الانضمام. | |
-| 77 | FAQ | What does it cost? | كم تبلغ التكلفة؟ | |
-| 78 | FAQ | Pricing has not been announced yet. | لم يُعلن عن الأسعار بعد. | |
-| 79 | FAQ | Your questions | أسئلة شائعة | |
-| 80 | Call to action and contact | Be among the first families to try HeartPilot. Send us an email and we will add you to the waitlist. | كن بين أولى العائلات التي تجرب هارت بايلوت. راسلنا وسنضيفك إلى قائمة الانتظار. | |
-| 81 | Call to action and contact | Abu Dhabi, UAE | أبوظبي، الإمارات | |
-| 82 | Call to action and contact | Clinics, hospitals, press and programme partners are welcome to write to the same address. | نرحب بالعيادات والمستشفيات والصحافة وشركاء البرامج للكتابة إلى العنوان نفسه. | |
-| 83 | Page title and description | HeartPilot: heart failure care at home for UAE families / Join the waitlist | هارت بايلوت: متابعة قصور القلب في البيت للعائلات في الإمارات / انضم إلى قائمة الانتظار | |
-| 84 | Page title and description | HeartPilot is a bilingual daily check-in app for people with heart failure. It tells patients what to do and alerts a family caregiver when it matters. In pilot preparation. | هارت بايلوت تطبيق للفحص اليومي لمرضى قصور القلب بالعربية والإنجليزية. يخبر المريض بما يفعله وينبّه أحد أفراد العائلة عند الحاجة. قيد التحضير للتجربة. | |
-| 85 | Call to action and contact | Skip to content | انتقل إلى المحتوى | |
-| 86 | Header (accessibility label) | HeartPilot home | HeartPilot، الصفحة الرئيسية | |
-| 87 | Header (accessibility label) | Page sections | أقسام الصفحة | |
-| 88 | Header | Benefits | المزايا | |
-| 89 | Header | Questions | أسئلة | |
-| 90 | Header | Contact | تواصل | |
-| 91 | Header (accessibility label) | العربية, switch language to Arabic | English، التبديل إلى الإنجليزية | |
-| 92 | Footer | Privacy Policy | سياسة الخصوصية | |
-| 93 | Footer | Terms of Service | شروط الخدمة | |
-| 94 | Footer | In an emergency call 998. | في حالة الطوارئ اتصل بالرقم 998. | |
-| 95 | Footer | HeartPilot supports daily self-management and does not replace medical care. | يساعد هارت بايلوت على المتابعة اليومية الذاتية، ولا يغني عن الرعاية الطبية. | |
-| 96 | Footer | HeartPilot, Abu Dhabi, UAE | هارت بايلوت، أبوظبي، الإمارات العربية المتحدة | |
-| 97 | Join the waitlist form (accessibility label) | Close | إغلاق | |
-| 98 | Join the waitlist form | Write your email and we will add you. We will only use it to reply about the waitlist. | اكتب بريدك الإلكتروني وسنضيفك. سنستخدمه فقط للرد عليك بخصوص قائمة الانتظار. | |
-| 99 | Join the waitlist form | Your email | بريدك الإلكتروني | |
-| 100 | Join the waitlist form | Please enter a valid email address. | يرجى إدخال بريد إلكتروني صحيح. | |
-| 101 | Join the waitlist form | Almost done | اقتربنا | |
-| 102 | Join the waitlist form | Your email app has opened with your request. Press send to finish joining. | فُتح تطبيق البريد لديك مع طلبك. اضغط إرسال لإكمال الانضمام. | |
-| 103 | 404 page | We could not find that page | لم نجد هذه الصفحة | |
-| 104 | 404 page | The link may be old or mistyped. | ربما الرابط قديم أو فيه خطأ. | |
-| 105 | 404 page | Go to the home page | العودة إلى الصفحة الرئيسية | |
-| 106 | Page title and description | Page not found / HeartPilot | الصفحة غير موجودة / هارت بايلوت | |
-| 107 | Page title and description | This page does not exist. | هذه الصفحة غير موجودة. | |
+| 75 | FAQ | Your questions | أسئلة شائعة | |
+| 76 | Call to action and contact | Be among the first families to try HeartPilot. Send us an email and we will add you to the waitlist. | كن بين أولى العائلات التي تجرب هارت بايلوت. راسلنا وسنضيفك إلى قائمة الانتظار. | |
+| 77 | Call to action and contact | Abu Dhabi, UAE | أبوظبي، الإمارات | |
+| 78 | Call to action and contact | Clinics, hospitals, press and programme partners are welcome to write to the same address. | نرحب بالعيادات والمستشفيات والصحافة وشركاء البرامج للكتابة إلى العنوان نفسه. | |
+| 79 | Page title and description | HeartPilot: heart failure care at home for UAE families / Join the waitlist | هارت بايلوت: متابعة قصور القلب في البيت للعائلات في الإمارات / انضم إلى قائمة الانتظار | |
+| 80 | Page title and description | HeartPilot is a bilingual daily check-in app for people with heart failure. It tells patients what to do and alerts a family caregiver when it matters. In pilot preparation. | هارت بايلوت تطبيق للفحص اليومي لمرضى قصور القلب بالعربية والإنجليزية. يخبر المريض بما يفعله وينبّه أحد أفراد العائلة عند الحاجة. قيد التحضير للتجربة. | |
+| 81 | Call to action and contact | Skip to content | انتقل إلى المحتوى | |
+| 82 | Header (accessibility label) | HeartPilot home | HeartPilot، الصفحة الرئيسية | |
+| 83 | Header (accessibility label) | Page sections | أقسام الصفحة | |
+| 84 | Header | Benefits | المزايا | |
+| 85 | Header | Questions | أسئلة | |
+| 86 | Header | Contact | تواصل | |
+| 87 | Header (accessibility label) | العربية, switch language to Arabic | English، التبديل إلى الإنجليزية | |
+| 88 | Footer | Privacy Policy | سياسة الخصوصية | |
+| 89 | Footer | Terms of Service | شروط الخدمة | |
+| 90 | Footer | In an emergency call 998. | في حالة الطوارئ اتصل بالرقم 998. | |
+| 91 | Footer | HeartPilot supports daily self-management and does not replace medical care. | يساعد هارت بايلوت على المتابعة اليومية الذاتية، ولا يغني عن الرعاية الطبية. | |
+| 92 | Footer | HeartPilot, Abu Dhabi, UAE | هارت بايلوت، أبوظبي، الإمارات العربية المتحدة | |
+| 93 | Join the waitlist form (accessibility label) | Close | إغلاق | |
+| 94 | Join the waitlist form | Write your email and we will add you. We will only use it to reply about the waitlist. | اكتب بريدك الإلكتروني وسنضيفك. سنستخدمه فقط للرد عليك بخصوص قائمة الانتظار. | |
+| 95 | Join the waitlist form | Your email | بريدك الإلكتروني | |
+| 96 | Join the waitlist form | Please enter a valid email address. | يرجى إدخال بريد إلكتروني صحيح. | |
+| 97 | Join the waitlist form | Almost done | اقتربنا | |
+| 98 | Join the waitlist form | Your email app has opened with your request. Press send to finish joining. | فُتح تطبيق البريد لديك مع طلبك. اضغط إرسال لإكمال الانضمام. | |
+| 99 | 404 page | We could not find that page | لم نجد هذه الصفحة | |
+| 100 | 404 page | The link may be old or mistyped. | ربما الرابط قديم أو فيه خطأ. | |
+| 101 | 404 page | Go to the home page | العودة إلى الصفحة الرئيسية | |
+| 102 | Page title and description | Page not found / HeartPilot | الصفحة غير موجودة / هارت بايلوت | |
+| 103 | Page title and description | This page does not exist. | هذه الصفحة غير موجودة. | |

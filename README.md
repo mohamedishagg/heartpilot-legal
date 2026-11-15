@@ -41,9 +41,8 @@ row in `docs/arabic-review.md`. Accessibility labels use `aria-label` plus
 `data-aria-en` and `data-aria-ar`. The Arabic page title and description are
 `<meta name="title-ar">` and `<meta name="description-ar">` in the head.
 
-Placeholders still to fill in `index.html` (search for `PLACEHOLDER`): pricing (the FAQ says
-"not announced yet"), and the contact address (`legal@heartpilot.org`, used in the
-mailto link and the JSON-LD block).
+Still to confirm: the contact address (`legal@heartpilot.org`, used in the mailto fallback
+and the JSON-LD block).
 
 ## The waitlist form
 
