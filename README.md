@@ -15,7 +15,7 @@ scripts, fonts, analytics, trackers or cookies.
 | `CNAME` | The custom domain. Do not edit |
 | `assets/css/styles.css` | All styling, light and dark mode, RTL via logical properties |
 | `assets/js/main.js` | Language toggle, mobile menu, mailto subject. Nothing else |
-| `assets/fonts/` | IBM Plex Sans Arabic (SIL OFL), Arabic subset, self-hosted, used as the Arabic fallback. English uses system fonts |
+| `assets/fonts/` | Anton (English headings) and IBM Plex Sans Arabic (Arabic), both SIL OFL, self-hosted, with licence files |
 | `assets/*.png` | Favicon, apple-touch-icon (the app icon), `og-image.png` (1200x630) |
 | `robots.txt`, `sitemap.xml` | SEO. Add new pages to the sitemap |
 | `docs/arabic-review.md` | Every Arabic string next to its English, for a native reviewer |
@@ -27,7 +27,7 @@ Ink blue `#152638` (main), oat ivory `#E9E5D8` (secondary), amber orange `#F18D4
 (accent, used last and sparingly). All are CSS variables at the top of
 `assets/css/styles.css`, with a dark-mode set under `prefers-color-scheme`.
 
-Arabic uses IBM Plex Sans Arabic (self-hosted, SIL OFL). English uses system fonts.
+Headings and the wordmark use Anton (self-hosted, SIL OFL, Latin only). Arabic uses IBM Plex Sans Arabic (self-hosted, SIL OFL), including Arabic headings, since Anton has no Arabic letters. Body text uses system fonts.
 
 **Thmanyah is deliberately not used.** Its licence (thmanyah's Font License, 2026)
 forbids hosting the font files on any website and forbids web embedding except
