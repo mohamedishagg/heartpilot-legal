@@ -240,3 +240,7 @@ html[lang=ar] .s-h{text-transform:none;letter-spacing:0;line-height:1.25;font-si
 @media (prefers-reduced-motion:reduce){#join[open]{animation:none}}
 #join [hidden]{display:none!important}
 .hp-field{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+/* features grid: the not-yet-built meal planner sits on its own full-width row, clearly tagged */
+.col.soon{grid-column:1/-1}
+.soon-tag{display:inline-block;vertical-align:middle;margin-inline-start:10px;padding:3px 10px;border-radius:999px;border:1px solid var(--teal-text);color:var(--teal-text);font:700 .72rem/1.4 var(--font);letter-spacing:.02em;text-transform:uppercase}
+html[lang=ar] .soon-tag{text-transform:none;letter-spacing:0;font-size:.8rem}

@@ -49,67 +49,70 @@ One line needs a decision: *HeartPilot* is written « هارت بايلوت » i
 | 37 | Benefits | Short, plain explanations, so the whole family understands heart failure. | شروحات قصيرة وواضحة ليفهم الجميع قصور القلب. | |
 | 38 | Benefits | English and Arabic | العربية والإنجليزية | |
 | 39 | Benefits | The whole app works in both languages, for patients and caregivers. | التطبيق كله بلغتين، للمرضى ولأفراد العائلة. | |
-| 40 | Benefits | What your family gets | ماذا تحصل عائلتك | |
-| 41 | Doses, appointments and devices | Doses | الجرعات | |
-| 42 | Doses, appointments and devices | Medicine reminders, plus a record of each dose taken, skipped or missed. | تذكيرات بالأدوية، مع سجل لكل جرعة أُخذت أو تُركت أو فاتت. | |
-| 43 | Doses, appointments and devices | Appointments | المواعيد | |
-| 44 | Doses, appointments and devices | Reminders before each appointment, so visits and tests are not forgotten. | تذكيرات قبل كل موعد، حتى لا تُنسى الزيارات والفحوصات. | |
-| 45 | Doses, appointments and devices | Devices | الأجهزة | |
-| 46 | Doses, appointments and devices | Have a smart scale or blood pressure monitor? Pair it with its own app over Bluetooth, and HeartPilot picks up the readings through the phone’s Health app, so there is less to type. This works when the device’s app can share with Health. | هل لديكم ميزان ذكي أو جهاز ضغط؟ اربطوه بتطبيقه الخاص عبر البلوتوث، ويلتقط هارت بايلوت القراءات من تطبيق الصحة في الهاتف، فيقل ما يُكتب باليد. ينجح ذلك عندما يستطيع تطبيق الجهاز المشاركة مع تطبيق الصحة. | |
-| 47 | Doses, appointments and devices | Keep track of doses and visits | تابعوا الجرعات والمواعيد | |
-| 48 | Doses, appointments and devices | Even with the best intentions, people forget. HeartPilot reminds them, and helps your family see when something slipped. | حتى مع أفضل النوايا، ينسى الناس. يذكّرهم هارت بايلوت، ويساعد عائلتكم على ملاحظة ما فات. | |
-| 49 | How it works | How it works | كيف يعمل | |
-| 50 | How it works | The patient logs their weight, how they feel and their medicines. It takes a minute. | يسجّل المريض وزنه وشعوره وأدويته. يستغرق ذلك دقيقة واحدة. | |
-| 51 | How it works | Clear guidance | إرشاد واضح | |
-| 52 | How it works | The app answers with green, amber or red and says what to do next. | يجيب التطبيق بالأخضر أو البرتقالي أو الأحمر ويقول ما يجب فعله بعد ذلك. | |
-| 53 | How it works | You are alerted | يصلك تنبيه | |
-| 54 | How it works | When it matters, you get an instant alert on your phone. | عندما يستدعي الأمر ذلك، يصلك تنبيه فوري على هاتفك. | |
-| 55 | How it works (accessibility label) | An illustration of a caregiver alert notification | رسم توضيحي لتنبيه يصل إلى أحد أفراد العائلة | |
-| 56 | How it works | Someone you support has a new alert | لدى شخص تدعمه تنبيه جديد | |
-| 57 | How it works | It may be worth a call. | قد يستحق الأمر مكالمة. | |
-| 58 | How it works | Illustration of a caregiver alert | رسم توضيحي لتنبيه يصل إلى أحد أفراد العائلة | |
-| 59 | How it works | What a caregiver sees, and does not see | ما يراه أحد أفراد العائلة وما لا يراه | |
-| 60 | How it works | The daily check-ins, including weight and symptoms | التسجيلات اليومية، ومنها الوزن والأعراض | |
-| 61 | How it works | The medicines and whether doses were taken | الأدوية، وهل أُخذت الجرعات | |
-| 62 | How it works | The patient’s answers to the wellbeing check | إجابات المريض عن فحص الحالة النفسية | |
-| 63 | How it works | Anything before the patient accepts your invite | أي شيء قبل أن يوافق المريض على دعوتك | |
-| 64 | How it works | The patient chooses who to invite and can remove a caregiver at any time. | المريض هو من يختار من يدعوه، ويمكنه إزالة أي شخص في أي وقت. | |
-| 65 | Proof | What families say | ماذا تقول العائلات | |
-| 66 | Proof | We are still preparing our pilot, so there are no results to share yet. We will only publish real feedback, with permission. | ما زلنا نحضّر للتجربة، فلا توجد نتائج لنشرها بعد. وسننشر فقط آراء حقيقية وبموافقة أصحابها. | |
-| 67 | FAQ | Is HeartPilot on the App Store? | هل هارت بايلوت متوفر في App Store؟ | |
-| 68 | FAQ | Not yet. It is in pilot preparation and in TestFlight testing. Join the waitlist and we will tell you when you can try it. | ليس بعد. التطبيق قيد التحضير للتجربة ونختبره عبر TestFlight. انضم إلى قائمة الانتظار وسنخبرك عندما تتاح لك التجربة. | |
-| 69 | FAQ | Does it replace my loved one’s doctor? | هل يغني عن طبيب مريضي؟ | |
-| 70 | FAQ | No. HeartPilot supports daily self-management and does not replace medical care. In an emergency call 998. | لا. يساعد هارت بايلوت على المتابعة اليومية الذاتية، ولا يغني عن الرعاية الطبية. في حالة الطوارئ اتصل بالرقم 998. | |
-| 71 | FAQ | What can I see as a caregiver? | ماذا أرى بصفتي أحد أفراد العائلة؟ | |
-| 72 | FAQ | The daily check-ins, the medicines and whether doses were taken. You do not see the patient’s answers to the wellbeing check. | التسجيلات اليومية والأدوية وهل أُخذت الجرعات. لا ترى إجابات المريض عن فحص الحالة النفسية. | |
-| 73 | FAQ | Can the patient stop sharing? | هل يستطيع المريض إيقاف المشاركة؟ | |
-| 74 | FAQ | Yes. The patient chooses who to invite and can remove a caregiver at any time. Patients and caregivers can also delete their account inside the app. | نعم. المريض هو من يختار من يدعوه ويمكنه إزالة أي شخص في أي وقت. ويمكن للمريض ولأفراد العائلة أيضاً حذف حسابهم من داخل التطبيق. | |
-| 75 | FAQ | Your questions | أسئلة شائعة | |
-| 76 | Call to action and contact | Be among the first families to try HeartPilot. Send us an email and we will add you to the waitlist. | كن بين أولى العائلات التي تجرب هارت بايلوت. راسلنا وسنضيفك إلى قائمة الانتظار. | |
-| 77 | Call to action and contact | Abu Dhabi, UAE | أبوظبي، الإمارات | |
-| 78 | Call to action and contact | Clinics, hospitals, press and programme partners are welcome to write to the same address. | نرحب بالعيادات والمستشفيات والصحافة وشركاء البرامج للكتابة إلى العنوان نفسه. | |
-| 79 | Page title and description | HeartPilot: heart failure care at home for UAE families / Join the waitlist | هارت بايلوت: متابعة قصور القلب في البيت للعائلات في الإمارات / انضم إلى قائمة الانتظار | |
-| 80 | Page title and description | HeartPilot is a bilingual daily check-in app for people with heart failure. It tells patients what to do and alerts a family caregiver when it matters. In pilot preparation. | هارت بايلوت تطبيق للفحص اليومي لمرضى قصور القلب بالعربية والإنجليزية. يخبر المريض بما يفعله وينبّه أحد أفراد العائلة عند الحاجة. قيد التحضير للتجربة. | |
-| 81 | Call to action and contact | Skip to content | انتقل إلى المحتوى | |
-| 82 | Header (accessibility label) | HeartPilot home | HeartPilot، الصفحة الرئيسية | |
-| 83 | Header (accessibility label) | Page sections | أقسام الصفحة | |
-| 84 | Header | Benefits | المزايا | |
-| 85 | Header | Questions | أسئلة | |
-| 86 | Header | Contact | تواصل | |
-| 87 | Header (accessibility label) | العربية, switch language to Arabic | English، التبديل إلى الإنجليزية | |
-| 88 | Footer | Privacy Policy | سياسة الخصوصية | |
-| 89 | Footer | Terms of Service | شروط الخدمة | |
-| 90 | Footer | In an emergency call 998. | في حالة الطوارئ اتصل بالرقم 998. | |
-| 91 | Footer | HeartPilot supports daily self-management and does not replace medical care. | يساعد هارت بايلوت على المتابعة اليومية الذاتية، ولا يغني عن الرعاية الطبية. | |
-| 92 | Footer | HeartPilot, Abu Dhabi, UAE | هارت بايلوت، أبوظبي، الإمارات العربية المتحدة | |
-| 93 | Join the waitlist form (accessibility label) | Close | إغلاق | |
-| 94 | Join the waitlist form | Write your email and we will add you. We will only use it to reply about the waitlist. | اكتب بريدك الإلكتروني وسنضيفك. سنستخدمه فقط للرد عليك بخصوص قائمة الانتظار. | |
-| 95 | Join the waitlist form | Your email | بريدك الإلكتروني | |
-| 96 | Join the waitlist form | Please enter a valid email address. | يرجى إدخال بريد إلكتروني صحيح. | |
-| 97 | Join the waitlist form | Almost done | اقتربنا | |
-| 98 | Join the waitlist form | Your email app has opened with your request. Press send to finish joining. | فُتح تطبيق البريد لديك مع طلبك. اضغط إرسال لإكمال الانضمام. | |
-| 99 | 404 page | We could not find that page | لم نجد هذه الصفحة | |
-| 100 | 404 page | The link may be old or mistyped. | ربما الرابط قديم أو فيه خطأ. | |
-| 101 | 404 page | Go to the home page | العودة إلى الصفحة الرئيسية | |
-| 102 | Page title and description | Page not found / HeartPilot | الصفحة غير موجودة / هارت بايلوت | |
-| 103 | Page title and description | This page does not exist. | هذه الصفحة غير موجودة. | |
+| 40 | Benefits | AI meal planner | مخطط وجبات بالذكاء الاصطناعي | |
+| 41 | Benefits | Coming soon | قريباً | |
+| 42 | Benefits | Heart safe planned meals from what is at home. | وجبات مناسبة للقلب، مخططة مما هو متوفر في البيت. | |
+| 43 | Benefits | What your family gets | ماذا تحصل عائلتك | |
+| 44 | Doses, appointments and devices | Doses | الجرعات | |
+| 45 | Doses, appointments and devices | Medicine reminders, plus a record of each dose taken, skipped or missed. | تذكيرات بالأدوية، مع سجل لكل جرعة أُخذت أو تُركت أو فاتت. | |
+| 46 | Doses, appointments and devices | Appointments | المواعيد | |
+| 47 | Doses, appointments and devices | Reminders before each appointment, so visits and tests are not forgotten. | تذكيرات قبل كل موعد، حتى لا تُنسى الزيارات والفحوصات. | |
+| 48 | Doses, appointments and devices | Devices | الأجهزة | |
+| 49 | Doses, appointments and devices | Have a smart scale or blood pressure monitor? Pair it with its own app over Bluetooth, and HeartPilot picks up the readings through the phone’s Health app, so there is less to type. This works when the device’s app can share with Health. | هل لديكم ميزان ذكي أو جهاز ضغط؟ اربطوه بتطبيقه الخاص عبر البلوتوث، ويلتقط هارت بايلوت القراءات من تطبيق الصحة في الهاتف، فيقل ما يُكتب باليد. ينجح ذلك عندما يستطيع تطبيق الجهاز المشاركة مع تطبيق الصحة. | |
+| 50 | Doses, appointments and devices | Keep track of doses and visits | تابعوا الجرعات والمواعيد | |
+| 51 | Doses, appointments and devices | Even with the best intentions, people forget. HeartPilot reminds them, and helps your family see when something slipped. | حتى مع أفضل النوايا، ينسى الناس. يذكّرهم هارت بايلوت، ويساعد عائلتكم على ملاحظة ما فات. | |
+| 52 | How it works | How it works | كيف يعمل | |
+| 53 | How it works | The patient logs their weight, how they feel and their medicines. It takes a minute. | يسجّل المريض وزنه وشعوره وأدويته. يستغرق ذلك دقيقة واحدة. | |
+| 54 | How it works | Clear guidance | إرشاد واضح | |
+| 55 | How it works | The app answers with green, amber or red and says what to do next. | يجيب التطبيق بالأخضر أو البرتقالي أو الأحمر ويقول ما يجب فعله بعد ذلك. | |
+| 56 | How it works | You are alerted | يصلك تنبيه | |
+| 57 | How it works | When it matters, you get an instant alert on your phone. | عندما يستدعي الأمر ذلك، يصلك تنبيه فوري على هاتفك. | |
+| 58 | How it works (accessibility label) | An illustration of a caregiver alert notification | رسم توضيحي لتنبيه يصل إلى أحد أفراد العائلة | |
+| 59 | How it works | Someone you support has a new alert | لدى شخص تدعمه تنبيه جديد | |
+| 60 | How it works | It may be worth a call. | قد يستحق الأمر مكالمة. | |
+| 61 | How it works | Illustration of a caregiver alert | رسم توضيحي لتنبيه يصل إلى أحد أفراد العائلة | |
+| 62 | How it works | What a caregiver sees, and does not see | ما يراه أحد أفراد العائلة وما لا يراه | |
+| 63 | How it works | The daily check-ins, including weight and symptoms | التسجيلات اليومية، ومنها الوزن والأعراض | |
+| 64 | How it works | The medicines and whether doses were taken | الأدوية، وهل أُخذت الجرعات | |
+| 65 | How it works | The patient’s answers to the wellbeing check | إجابات المريض عن فحص الحالة النفسية | |
+| 66 | How it works | Anything before the patient accepts your invite | أي شيء قبل أن يوافق المريض على دعوتك | |
+| 67 | How it works | The patient chooses who to invite and can remove a caregiver at any time. | المريض هو من يختار من يدعوه، ويمكنه إزالة أي شخص في أي وقت. | |
+| 68 | Proof | What families say | ماذا تقول العائلات | |
+| 69 | Proof | We are still preparing our pilot, so there are no results to share yet. We will only publish real feedback, with permission. | ما زلنا نحضّر للتجربة، فلا توجد نتائج لنشرها بعد. وسننشر فقط آراء حقيقية وبموافقة أصحابها. | |
+| 70 | FAQ | Is HeartPilot on the App Store? | هل هارت بايلوت متوفر في App Store؟ | |
+| 71 | FAQ | Not yet. It is in pilot preparation and in TestFlight testing. Join the waitlist and we will tell you when you can try it. | ليس بعد. التطبيق قيد التحضير للتجربة ونختبره عبر TestFlight. انضم إلى قائمة الانتظار وسنخبرك عندما تتاح لك التجربة. | |
+| 72 | FAQ | Does it replace my loved one’s doctor? | هل يغني عن طبيب مريضي؟ | |
+| 73 | FAQ | No. HeartPilot supports daily self-management and does not replace medical care. In an emergency call 998. | لا. يساعد هارت بايلوت على المتابعة اليومية الذاتية، ولا يغني عن الرعاية الطبية. في حالة الطوارئ اتصل بالرقم 998. | |
+| 74 | FAQ | What can I see as a caregiver? | ماذا أرى بصفتي أحد أفراد العائلة؟ | |
+| 75 | FAQ | The daily check-ins, the medicines and whether doses were taken. You do not see the patient’s answers to the wellbeing check. | التسجيلات اليومية والأدوية وهل أُخذت الجرعات. لا ترى إجابات المريض عن فحص الحالة النفسية. | |
+| 76 | FAQ | Can the patient stop sharing? | هل يستطيع المريض إيقاف المشاركة؟ | |
+| 77 | FAQ | Yes. The patient chooses who to invite and can remove a caregiver at any time. Patients and caregivers can also delete their account inside the app. | نعم. المريض هو من يختار من يدعوه ويمكنه إزالة أي شخص في أي وقت. ويمكن للمريض ولأفراد العائلة أيضاً حذف حسابهم من داخل التطبيق. | |
+| 78 | FAQ | Your questions | أسئلة شائعة | |
+| 79 | Call to action and contact | Be among the first families to try HeartPilot. Send us an email and we will add you to the waitlist. | كن بين أولى العائلات التي تجرب هارت بايلوت. راسلنا وسنضيفك إلى قائمة الانتظار. | |
+| 80 | Call to action and contact | Abu Dhabi, UAE | أبوظبي، الإمارات | |
+| 81 | Call to action and contact | Clinics, hospitals, press and programme partners are welcome to write to the same address. | نرحب بالعيادات والمستشفيات والصحافة وشركاء البرامج للكتابة إلى العنوان نفسه. | |
+| 82 | Page title and description | HeartPilot: heart failure care at home for UAE families / Join the waitlist | هارت بايلوت: متابعة قصور القلب في البيت للعائلات في الإمارات / انضم إلى قائمة الانتظار | |
+| 83 | Page title and description | HeartPilot is a bilingual daily check-in app for people with heart failure. It tells patients what to do and alerts a family caregiver when it matters. In pilot preparation. | هارت بايلوت تطبيق للفحص اليومي لمرضى قصور القلب بالعربية والإنجليزية. يخبر المريض بما يفعله وينبّه أحد أفراد العائلة عند الحاجة. قيد التحضير للتجربة. | |
+| 84 | Call to action and contact | Skip to content | انتقل إلى المحتوى | |
+| 85 | Header (accessibility label) | HeartPilot home | HeartPilot، الصفحة الرئيسية | |
+| 86 | Header (accessibility label) | Page sections | أقسام الصفحة | |
+| 87 | Header | Benefits | المزايا | |
+| 88 | Header | Questions | أسئلة | |
+| 89 | Header | Contact | تواصل | |
+| 90 | Header (accessibility label) | العربية, switch language to Arabic | English، التبديل إلى الإنجليزية | |
+| 91 | Footer | Privacy Policy | سياسة الخصوصية | |
+| 92 | Footer | Terms of Service | شروط الخدمة | |
+| 93 | Footer | In an emergency call 998. | في حالة الطوارئ اتصل بالرقم 998. | |
+| 94 | Footer | HeartPilot supports daily self-management and does not replace medical care. | يساعد هارت بايلوت على المتابعة اليومية الذاتية، ولا يغني عن الرعاية الطبية. | |
+| 95 | Footer | HeartPilot, Abu Dhabi, UAE | هارت بايلوت، أبوظبي، الإمارات العربية المتحدة | |
+| 96 | Join the waitlist form (accessibility label) | Close | إغلاق | |
+| 97 | Join the waitlist form | Write your email and we will add you. We will only use it to reply about the waitlist. | اكتب بريدك الإلكتروني وسنضيفك. سنستخدمه فقط للرد عليك بخصوص قائمة الانتظار. | |
+| 98 | Join the waitlist form | Your email | بريدك الإلكتروني | |
+| 99 | Join the waitlist form | Please enter a valid email address. | يرجى إدخال بريد إلكتروني صحيح. | |
+| 100 | Join the waitlist form | Almost done | اقتربنا | |
+| 101 | Join the waitlist form | Your email app has opened with your request. Press send to finish joining. | فُتح تطبيق البريد لديك مع طلبك. اضغط إرسال لإكمال الانضمام. | |
+| 102 | 404 page | We could not find that page | لم نجد هذه الصفحة | |
+| 103 | 404 page | The link may be old or mistyped. | ربما الرابط قديم أو فيه خطأ. | |
+| 104 | 404 page | Go to the home page | العودة إلى الصفحة الرئيسية | |
+| 105 | Page title and description | Page not found / HeartPilot | الصفحة غير موجودة / هارت بايلوت | |
+| 106 | Page title and description | This page does not exist. | هذه الصفحة غير موجودة. | |
