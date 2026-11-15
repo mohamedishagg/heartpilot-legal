@@ -73,7 +73,7 @@ One line needs a decision: *HeartPilot* is written « هارت بايلوت » i
 | 61 | FAQ | Under our published Privacy Policy, which you can read before you join. | وفق سياسة الخصوصية المنشورة، ويمكنك قراءتها قبل الانضمام. | |
 | 62 | FAQ | What does it cost? | كم تبلغ التكلفة؟ | |
 | 63 | FAQ | Pricing has not been announced yet. | لم يُعلن عن الأسعار بعد. | |
-| 64 | FAQ | Questions | أسئلة شائعة | |
+| 64 | FAQ | Your questions | أسئلة شائعة | |
 | 65 | Call to action and contact | Be among the first families to try HeartPilot. Send us an email and we will add you to the waitlist. | كن بين أولى العائلات التي تجرب هارت بايلوت. راسلنا وسنضيفك إلى قائمة الانتظار. | |
 | 66 | Call to action and contact | Abu Dhabi, UAE | أبوظبي، الإمارات | |
 | 67 | Call to action and contact | Clinics, hospitals, press and programme partners are welcome to write to the same address. | نرحب بالعيادات والمستشفيات والصحافة وشركاء البرامج للكتابة إلى العنوان نفسه. | |
