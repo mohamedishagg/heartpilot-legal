@@ -242,3 +242,10 @@ html[lang=ar] .s-h{text-transform:none;letter-spacing:0;line-height:1.25;font-si
 .hp-field{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
 /* features grid: the seventh card sits on its own full-width row so the grid stays balanced */
 .col.soon{grid-column:1/-1}
+/* soft hand-over from the tinted problem band into the page background */
+.fade-down{background:linear-gradient(180deg,var(--alt) 0%,var(--alt) 35%,color-mix(in srgb,var(--alt) 55%,var(--bg)) 70%,var(--bg) 100%)}
+.fade-down+#benefits{padding-top:clamp(28px,5vw,56px)}
+/* benefits: headlines only */
+#benefits .grid{gap:0 40px}
+#benefits .col{padding:18px 0 22px}
+#benefits .col h3{font-size:1.15rem;margin:0}
