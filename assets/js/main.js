@@ -26,13 +26,4 @@
   if (b) b.addEventListener("click", function () {
     var next = root.lang === "ar" ? "en" : "ar"; apply(next); save(next);
   });
-  var menu = document.getElementById("menu"), nav = document.getElementById("nav");
-  if (menu && nav) {
-    menu.addEventListener("click", function () {
-      var o = nav.classList.toggle("open"); menu.setAttribute("aria-expanded", o ? "true" : "false");
-    });
-    nav.addEventListener("click", function (e) {
-      if (e.target.tagName === "A") { nav.classList.remove("open"); menu.setAttribute("aria-expanded", "false"); }
-    });
-  }
 })();

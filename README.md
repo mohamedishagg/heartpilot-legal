@@ -1,64 +1,57 @@
 # heartpilot-legal
 
 The public site at https://heartpilot.org, served by GitHub Pages from `main`.
-Plain HTML, CSS and a little vanilla JS. No framework, no build step, no external
-scripts, fonts, analytics, trackers or cookies.
+One landing page, plus the legal pages. Plain HTML, CSS and a little vanilla JS.
+No framework, no build step, no external scripts, fonts, analytics, trackers or cookies.
 
 ## Structure
 
 | Path | What it is |
 |---|---|
-| `index.html` | Home: hero, the problem, links to every page |
-| `how-it-works.html`, `features.html`, `caregivers.html`, `clinics.html`, `safety.html`, `roadmap.html`, `contact.html` | One topic per page. English and Arabic live in the same file |
+| `index.html` | The landing page: hero, why it helps, benefits, how it works, proof, FAQ, waitlist and contact. English and Arabic in one file |
 | `404.html` | Not found page, same style |
 | `privacy-policy.html`, `terms-of-service.html` | The legal pages. Do not move or rename; the app links to them |
 | `CNAME` | The custom domain. Do not edit |
-| `assets/css/styles.css` | All styling, light and dark mode, RTL via logical properties |
-| `assets/js/main.js` | Language toggle, mobile menu, mailto subject. Nothing else |
-| `assets/fonts/` | Anton (English headings) and IBM Plex Sans Arabic (Arabic), both SIL OFL, self-hosted, with licence files |
-| `assets/*.png` | Favicon, apple-touch-icon (the app icon), `og-image.png` (1200x630) |
-| `robots.txt`, `sitemap.xml` | SEO. Add new pages to the sitemap |
+| `assets/css/styles.css` | All styling, light and dark mode, right-to-left via logical properties |
+| `assets/js/main.js` | Language toggle and mailto subject. Nothing else |
+| `assets/logo-128.png` | The app icon, rounded, used as the logo |
+| `assets/*.png` | Favicon, apple-touch-icon, `og-image.png` (1200x630) |
+| `robots.txt`, `sitemap.xml` | SEO |
 | `docs/arabic-review.md` | Every Arabic string next to its English, for a native reviewer |
 | `docs/screenshots/` | QA screenshots at 390, 768 and 1440 px, English and Arabic |
 
-## Colours and fonts
+## Colours and font
 
-Ink blue `#152638` (main), oat ivory `#E9E5D8` (secondary), amber orange `#F18D46`
-(accent, used last and sparingly). All are CSS variables at the top of
-`assets/css/styles.css`, with a dark-mode set under `prefers-color-scheme`.
-
-Headings and the wordmark use Anton (self-hosted, SIL OFL, Latin only). Arabic uses IBM Plex Sans Arabic (self-hosted, SIL OFL), including Arabic headings, since Anton has no Arabic letters. Body text uses system fonts.
-
-**Thmanyah is deliberately not used.** Its licence (thmanyah's Font License, 2026)
-forbids hosting the font files on any website and forbids web embedding except
-inside a compiled, packaged or obfuscated product, and it forbids modifying or
-converting the files. A public static site would serve the files as downloads.
-Do not add them here. If Thmanyah grants a written exception (ask@thmanyah.com),
-add `@font-face` rules and put the family first in `--font-ar`.
+The app's own theme: brand teal `#166B5C`, navy `#10314A`, canvas `#FAF9F7`, and the
+cream of the app icon. They are CSS variables at the top of `assets/css/styles.css`,
+with a dark-mode set under `prefers-color-scheme`. Arial throughout (a system font,
+nothing is hosted). Thmanyah and Anton were tried and dropped; Thmanyah's licence
+forbids hosting the files on a website.
 
 ## Editing copy
 
-Every sentence appears twice in each page, side by side:
+Every sentence appears twice, side by side:
 
 ```html
 <span data-l="en">English text</span><span data-l="ar" lang="ar">النص العربي</span>
 ```
 
-CSS shows one and hides the other according to `<html lang>`. Edit both spans, and
-update the matching row in `docs/arabic-review.md`. Accessibility labels use
-`aria-label` plus `data-aria-en` and `data-aria-ar` (kept in step by `main.js`).
-The page title and description for Arabic are in `main.js`.
+CSS shows one according to `<html lang>`. Edit both spans and update the matching
+row in `docs/arabic-review.md`. Accessibility labels use `aria-label` plus
+`data-aria-en` and `data-aria-ar`. The Arabic page title and description are
+`<meta name="title-ar">` and `<meta name="description-ar">` in the head.
 
-Placeholders still to fill (`safety.html`, `contact.html`, `index.html`): the "Clinically led" section (bio,
-approved title, photo permission) and the contact address (`legal@heartpilot.org`,
-used in the `mailto:` link and the JSON-LD block).
+Placeholders still to fill in `index.html` (search for `PLACEHOLDER`): the proof
+section (real testimonials or pilot results, with permission), pricing (the FAQ says
+"not announced yet"), and the contact address (`legal@heartpilot.org`, used in the
+mailto link and the JSON-LD block).
 
 ## Deploy
 
 Commit and push to `main`. Pages rebuilds in a minute or two. Settings that must
-stay on: Settings > Pages > Source "Deploy from a branch" (`main`, `/`), custom
-domain `heartpilot.org`, and "Enforce HTTPS" ticked.
+stay on: Settings > Pages > "Deploy from a branch" (`main`, `/`), custom domain
+`heartpilot.org`, and "Enforce HTTPS" ticked.
 
-Before pushing, check: no request leaves the site (browser network tab), the
-page works at 390 px, and `privacy-policy.html`, `terms-of-service.html` and
-`CNAME` are unchanged (`git diff --stat`).
+Before pushing, check: no request leaves the site (browser network tab), the page
+works at 390 px, and `privacy-policy.html`, `terms-of-service.html` and `CNAME` are
+unchanged (`git diff --stat`).
