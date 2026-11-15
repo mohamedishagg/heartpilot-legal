@@ -13,7 +13,7 @@ One line needs a decision: *HeartPilot* is written « هارت بايلوت » i
 | 1 | Header | Join the waitlist | انضم إلى قائمة الانتظار | |
 | 2 | Hero | For family caregivers in the UAE | لأفراد العائلة الذين يرعون مرضى قصور القلب في الإمارات | |
 | 3 | Hero | Know sooner when your loved one’s heart failure needs attention. | اعرف مبكراً متى يحتاج مريض قصور القلب في عائلتك إلى انتباه. | |
-| 4 | Hero | After hospital discharge, symptoms, weight and medicines are easy to miss from a distance. HeartPilot gives your family a simple daily check-in in English and Arabic, and alerts you when something needs attention. | بعد خروج المريض من المستشفى، يصعب أن تتابع الأعراض والوزن والأدوية عن بُعد. يقدم لكم هارت بايلوت فحصاً يومياً بسيطاً بالعربية والإنجليزية، وينبّهكم عندما يحتاج أمر ما إلى انتباه. | |
+| 4 | Hero | They’re home from hospital. Now you’re the one watching. Is the weight creeping up? Did they take their pills? You can’t be there every hour. HeartPilot gives your family a one-minute daily check-in in English and Arabic, and lets you know when something needs attention. | مريضكم عاد إلى البيت، والآن أنتم من يراقب. هل يزداد الوزن؟ هل أخذ أدويته؟ لا يمكنكم أن تكونوا بجانبه كل ساعة. يقدّم لكم هارت بايلوت فحصاً يومياً من دقيقة بالعربية والإنجليزية، ويُعلمكم عندما يحتاج أمر ما إلى انتباه. | |
 | 5 | Hero | See how it works | شاهد كيف يعمل | |
 | 6 | Hero (accessibility label) | An illustration of the HeartPilot Today screen showing the message You are on track, with a daily check-in card and a caregiver alert card | رسم توضيحي لشاشة اليوم في هارت بايلوت يعرض رسالة أنت على المسار الصحيح، مع بطاقة الفحص اليومي وبطاقة تنبيه لأحد أفراد العائلة | |
 | 7 | Hero | Daily check-in | الفحص اليومي | |
