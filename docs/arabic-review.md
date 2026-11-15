@@ -106,8 +106,14 @@ One line needs a decision: *HeartPilot* is written « هارت بايلوت » i
 | 94 | Footer | In an emergency call 998. | في حالة الطوارئ اتصل بالرقم 998. | |
 | 95 | Footer | HeartPilot supports daily self-management and does not replace medical care. | يساعد هارت بايلوت على المتابعة اليومية الذاتية، ولا يغني عن الرعاية الطبية. | |
 | 96 | Footer | HeartPilot, Abu Dhabi, UAE | هارت بايلوت، أبوظبي، الإمارات العربية المتحدة | |
-| 97 | 404 page | We could not find that page | لم نجد هذه الصفحة | |
-| 98 | 404 page | The link may be old or mistyped. | ربما الرابط قديم أو فيه خطأ. | |
-| 99 | 404 page | Go to the home page | العودة إلى الصفحة الرئيسية | |
-| 100 | Page title and description | Page not found / HeartPilot | الصفحة غير موجودة / هارت بايلوت | |
-| 101 | Page title and description | This page does not exist. | هذه الصفحة غير موجودة. | |
+| 97 | Join the waitlist form (accessibility label) | Close | إغلاق | |
+| 98 | Join the waitlist form | Write your email and we will add you. We will only use it to reply about the waitlist. | اكتب بريدك الإلكتروني وسنضيفك. سنستخدمه فقط للرد عليك بخصوص قائمة الانتظار. | |
+| 99 | Join the waitlist form | Your email | بريدك الإلكتروني | |
+| 100 | Join the waitlist form | Please enter a valid email address. | يرجى إدخال بريد إلكتروني صحيح. | |
+| 101 | Join the waitlist form | Almost done | اقتربنا | |
+| 102 | Join the waitlist form | Your email app has opened with your request. Press send to finish joining. | فُتح تطبيق البريد لديك مع طلبك. اضغط إرسال لإكمال الانضمام. | |
+| 103 | 404 page | We could not find that page | لم نجد هذه الصفحة | |
+| 104 | 404 page | The link may be old or mistyped. | ربما الرابط قديم أو فيه خطأ. | |
+| 105 | 404 page | Go to the home page | العودة إلى الصفحة الرئيسية | |
+| 106 | Page title and description | Page not found / HeartPilot | الصفحة غير موجودة / هارت بايلوت | |
+| 107 | Page title and description | This page does not exist. | هذه الصفحة غير موجودة. | |

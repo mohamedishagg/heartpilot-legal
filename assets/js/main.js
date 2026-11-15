@@ -45,10 +45,10 @@
       var done = false;
       function fin() { if (done) return; done = true; if (idx >= n) snapBack(); else busy = false; }
       track.addEventListener("transitionend", function h(e) { if (e.target === track) { track.removeEventListener("transitionend", h); fin(); } });
-      setTimeout(fin, reduce ? 0 : 900);
+      setTimeout(fin, reduce ? 0 : 1300);
     }
     function stop() { if (timer) { clearInterval(timer); timer = null; } }
-    function start() { if (!timer && !paused && !reduce) timer = setInterval(function () { go(idx + 1); }, 3200); }
+    function start() { if (!timer && !paused && !reduce) timer = setInterval(function () { go(idx + 1); }, 4300); }
     for (var k = 0; k < n; k++) (function (j) { sw[j].addEventListener("click", function () { stop(); paused = true; syncPause(); go(j); }); })(k);
     function syncPause() { if (pauseBtn) { pauseBtn.setAttribute("aria-pressed", paused ? "true" : "false"); pauseBtn.textContent = paused ? "▶" : "❚❚"; } }
     if (pauseBtn) pauseBtn.addEventListener("click", function () { paused = !paused; syncPause(); if (paused) stop(); else start(); });
@@ -60,5 +60,37 @@
     });
     document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); else start(); });
     paint(); syncPause(); start();
+  }
+  // Join the waitlist: every Join button opens a small form where the visitor writes their email.
+  var dlg = document.getElementById("join"), form = document.getElementById("join-form");
+  if (dlg && form && dlg.showModal) {
+    var em = document.getElementById("join-email"), err = document.getElementById("join-err"), ok = document.getElementById("join-ok");
+    var openers = document.querySelectorAll('a[href="#contact"], a[href="/#contact"], #mail');
+    function openJoin(e) { e.preventDefault(); err.hidden = true; ok.hidden = true; dlg.showModal(); em.focus(); }
+    for (var i = 0; i < openers.length; i++) openers[i].addEventListener("click", openJoin);
+    document.getElementById("join-close").addEventListener("click", function () { dlg.close(); });
+    dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var v = em.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { err.hidden = false; em.setAttribute("aria-invalid", "true"); em.focus(); return; }
+      err.hidden = true; em.removeAttribute("aria-invalid");
+      var endpoint = form.getAttribute("data-endpoint");
+      if (endpoint) {
+        // Wire a signup endpoint here (see README). The email is sent as JSON.
+        fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: v }) })
+          .then(function (r) { if (!r.ok) throw 0; ok.querySelector("span").textContent = document.documentElement.lang === "ar" ? "تمت إضافتك إلى قائمة الانتظار." : "You are on the waitlist."; ok.hidden = false; })
+          .catch(function () { window.location.href = mailtoFor(v); });
+      } else {
+        ok.hidden = false;
+        window.location.href = mailtoFor(v);
+      }
+    });
+    function mailtoFor(v) {
+      var ar = document.documentElement.lang === "ar";
+      var subj = ar ? "قائمة انتظار هارت بايلوت" : "HeartPilot waitlist";
+      var body = ar ? "أرجو إضافتي إلى قائمة انتظار هارت بايلوت.\n\nبريدي الإلكتروني: " + v : "Please add me to the HeartPilot waitlist.\n\nMy email: " + v;
+      return "mailto:" + form.getAttribute("data-to") + "?subject=" + encodeURIComponent(subj) + "&body=" + encodeURIComponent(body);
+    }
   }
 })();

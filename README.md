@@ -8,7 +8,7 @@ No framework, no build step, no external scripts, fonts, analytics, trackers or 
 
 | Path | What it is |
 |---|---|
-| `index.html` | The landing page: hero, why it helps, benefits, how it works, proof, FAQ, waitlist and contact. English and Arabic in one file |
+| `index.html` | The landing page: hero, screens showcase, why it helps, benefits, how it works, FAQ, waitlist and contact. English and Arabic in one file |
 | `404.html` | Not found page, same style |
 | `privacy-policy.html`, `terms-of-service.html` | The legal pages. Do not move or rename; the app links to them |
 | `CNAME` | The custom domain. Do not edit |
@@ -41,10 +41,18 @@ row in `docs/arabic-review.md`. Accessibility labels use `aria-label` plus
 `data-aria-en` and `data-aria-ar`. The Arabic page title and description are
 `<meta name="title-ar">` and `<meta name="description-ar">` in the head.
 
-Placeholders still to fill in `index.html` (search for `PLACEHOLDER`): the proof
-section (real testimonials or pilot results, with permission), pricing (the FAQ says
+Placeholders still to fill in `index.html` (search for `PLACEHOLDER`): pricing (the FAQ says
 "not announced yet"), and the contact address (`legal@heartpilot.org`, used in the
 mailto link and the JSON-LD block).
+
+## The waitlist form
+
+Every Join the waitlist button opens a small dialog where the visitor writes their
+email. With no backend, pressing Join opens their email app with a prefilled message
+to `legal@heartpilot.org`, so each signup arrives as an email. To store signups
+automatically, set `data-endpoint` on `<form id="join-form">` to a URL that accepts
+`POST {"email": "..."}` and answers 200; the page then shows "You are on the
+waitlist". If the request fails it falls back to the email app.
 
 ## Deploy
 

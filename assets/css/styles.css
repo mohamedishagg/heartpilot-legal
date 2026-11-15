@@ -167,14 +167,14 @@ html[lang=ar] h2 em{font-style:normal;font-weight:700}
 
 /* showcase: full-bleed colour blocks; the whole slide swipes left while the background blends to the next colourway */
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-.show{padding:0;position:relative;overflow:hidden;color:#EFE9DC;background:#08322B;transition:background-color .55s ease,color .55s ease;isolation:isolate}
+.show{padding:0;position:relative;overflow:hidden;color:#EFE9DC;background:#08322B;transition:background-color 1s ease,color 1s ease;isolation:isolate}
 .show[data-c="0"]{background:#08322B;color:#EFE9DC}
 .show[data-c="1"]{background:#10314A;color:#EFE9DC}
 .show[data-c="2"]{background:#115247;color:#EFE9DC}
 .show[data-c="3"]{background:#EFE9DC;color:#10314A}
 .grain{position:absolute;inset:0;z-index:3;pointer-events:none;opacity:.16;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/></svg>")}
 .viewport{overflow:hidden;position:relative;z-index:1}
-.track{display:flex;width:500%;direction:ltr;transition:transform .55s cubic-bezier(.16,.92,.24,1.05);will-change:transform}
+.track{display:flex;width:500%;direction:ltr;transition:transform 1.05s cubic-bezier(.65,0,.25,1);will-change:transform;backface-visibility:hidden;transform:translate3d(0,0,0)}
 .track.snap{transition:none}
 .slide{width:20%;flex:none;height:clamp(500px,calc(100vh - 68px),780px)}
 html[dir=rtl] .slide{direction:rtl}
@@ -215,3 +215,27 @@ html[lang=ar] .s-h{text-transform:none;letter-spacing:0;line-height:1.25;font-si
   .show-cap{display:none}.pause{bottom:16px}
 }
 @media (prefers-reduced-motion:reduce){.track,.show{transition:none}}
+
+/* smoother swipe: the headline, phone and counter travel on slightly different curves */
+.s-copy,.s-phone,.s-meta{transition:opacity .9s ease;will-change:transform}
+.track .s-phone{animation:none}
+/* join dialog */
+#join{border:0;border-radius:24px;padding:0;max-width:min(440px,calc(100% - 32px));width:100%;background:var(--surface);color:var(--ink);box-shadow:0 30px 90px rgba(10,30,45,.45)}
+#join::backdrop{background:rgba(8,30,28,.62);backdrop-filter:blur(4px)}
+#join form{position:relative;padding:30px 28px 26px;display:flex;flex-direction:column;gap:12px}
+#join h2{font-size:1.9rem;margin:0}
+#join p{margin:0}
+#join label{font-weight:700;font-size:.95rem}
+#join input{font:inherit;font-size:1.05rem;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+#join input:focus{outline:3px solid var(--teal-text);outline-offset:1px;border-color:var(--teal-text)}
+#join .err{color:#B3261E;font-size:.9rem}
+@media (prefers-color-scheme:dark){#join .err{color:#FF9C94}}
+#join .wide{width:100%;margin-top:4px}
+#join .x{position:absolute;inset-inline-end:14px;top:12px;width:40px;height:40px;border-radius:50%;border:0;background:none;color:var(--muted);font-size:1.6rem;cursor:pointer;line-height:1}
+#join .x:hover{background:var(--alt)}
+#join .ok{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border-radius:14px;background:var(--alt)}
+#join .ok span{color:var(--muted);font-size:.95rem}
+#join[open]{animation:pop .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){#join[open]{animation:none}}
+#join [hidden]{display:none!important}
