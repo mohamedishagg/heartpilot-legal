@@ -48,11 +48,11 @@ mailto link and the JSON-LD block).
 ## The waitlist form
 
 Every Join the waitlist button opens a small dialog where the visitor writes their
-email. With no backend, pressing Join opens their email app with a prefilled message
-to `legal@heartpilot.org`, so each signup arrives as an email. To store signups
-automatically, set `data-endpoint` on `<form id="join-form">` to a URL that accepts
-`POST {"email": "..."}` and answers 200; the page then shows "You are on the
-waitlist". If the request fails it falls back to the email app.
+email. The email is saved to a Google Sheet through an Apps Script web app: see
+`docs/waitlist-sheet.md` for the code and the 3-minute setup, then put the web app URL
+in `data-endpoint` on `<form id="join-form">` in `index.html`. Until that URL is set,
+the form falls back to opening the visitor's email app with a prefilled message to
+`legal@heartpilot.org`.
 
 ## Deploy
 

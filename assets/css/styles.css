@@ -239,3 +239,4 @@ html[lang=ar] .s-h{text-transform:none;letter-spacing:0;line-height:1.25;font-si
 @keyframes pop{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){#join[open]{animation:none}}
 #join [hidden]{display:none!important}
+.hp-field{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}

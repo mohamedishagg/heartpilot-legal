@@ -75,12 +75,20 @@
       var v = em.value.trim();
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { err.hidden = false; em.setAttribute("aria-invalid", "true"); em.focus(); return; }
       err.hidden = true; em.removeAttribute("aria-invalid");
-      var endpoint = form.getAttribute("data-endpoint");
+      if (form.elements["website"] && form.elements["website"].value) { ok.querySelector("span").textContent = ""; ok.hidden = false; return; }
+      var endpoint = form.getAttribute("data-endpoint"), ar0 = document.documentElement.lang === "ar";
       if (endpoint) {
-        // Wire a signup endpoint here (see README). The email is sent as JSON.
-        fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: v }) })
-          .then(function (r) { if (!r.ok) throw 0; ok.querySelector("span").textContent = document.documentElement.lang === "ar" ? "تمت إضافتك إلى قائمة الانتظار." : "You are on the waitlist."; ok.hidden = false; })
-          .catch(function () { window.location.href = mailtoFor(v); });
+        // Saves the email to the waitlist sheet (Google Apps Script web app, see docs/waitlist-sheet.md).
+        // no-cors: the script's reply cannot be read, so a sent request counts as success.
+        var btn = document.getElementById("join-go"); btn.disabled = true;
+        var data = new URLSearchParams({ email: v, lang: ar0 ? "ar" : "en", page: location.pathname });
+        fetch(endpoint, { method: "POST", mode: "no-cors", body: data })
+          .then(function () {
+            ok.querySelector("strong").textContent = ar0 ? "تمت إضافتك" : "You are on the list";
+            ok.querySelector("span").textContent = ar0 ? "شكراً لك. سنتواصل معك بخصوص قائمة الانتظار." : "Thank you. We will be in touch about the waitlist.";
+            ok.hidden = false; form.reset(); btn.disabled = false;
+          })
+          .catch(function () { btn.disabled = false; window.location.href = mailtoFor(v); });
       } else {
         ok.hidden = false;
         window.location.href = mailtoFor(v);
