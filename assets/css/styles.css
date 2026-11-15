@@ -97,7 +97,6 @@ p{margin:0 0 1em}
 .s-row{display:flex;gap:8px;margin-top:auto}
 .chip{flex:1;height:10px;border-radius:6px}.c-g{background:var(--g)}.c-a{background:var(--a)}.c-r{background:var(--r)}
 .float{position:absolute;display:flex;align-items:center;gap:8px;background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:14px;padding:10px 14px;font-size:.84rem;font-weight:600}
-.f1{inset-inline-start:-6px;bottom:26%;animation:bob 6s ease-in-out infinite}
 .f2{inset-inline-end:0;bottom:-4px;font-weight:500;color:var(--muted);font-size:.76rem}
 /* sections */
 section{padding:clamp(56px,9vw,104px) 0}
