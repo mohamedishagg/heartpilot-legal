@@ -26,30 +26,39 @@
   if (b) b.addEventListener("click", function () {
     var next = root.lang === "ar" ? "en" : "ar"; apply(next); save(next);
   });
-  // Screens carousel: the next screen waits small in the corner, then glides to the centre.
-  var stage = document.getElementById("carousel");
-  if (stage) {
-    var slots = stage.querySelectorAll(".slot"), caps = document.querySelectorAll(".scap"),
-        dots = document.querySelectorAll(".dot-btn"), n = slots.length, idx = 0, timer = null, userMoved = false;
+  // Screens showcase: every few seconds the whole slide swipes left and the next colourway blends in.
+  var show = document.getElementById("screens"), track = document.getElementById("track");
+  if (show && track) {
+    var sw = show.querySelectorAll(".sw"), n = sw.length, idx = 0, timer = null, paused = false, busy = false;
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    function render() {
-      for (var i = 0; i < n; i++) {
-        slots[i].className = "slot p" + ((i - idx + n) % n);
-        caps[i].classList.toggle("on", i === idx);
-        dots[i].classList.toggle("on", i === idx);
-      }
-      stage.setAttribute("data-i", idx);
+    var pauseBtn = document.getElementById("pause");
+    function paint() {
+      track.style.transform = "translateX(" + (-idx * 20) + "%)";
+      show.setAttribute("data-c", idx % n);
+      for (var i = 0; i < n; i++) sw[i].classList.toggle("on", i === idx % n);
     }
-    function go(to, byUser) { idx = (to + n) % n; if (byUser) { userMoved = true; stop(); } render(); }
+    function snapBack() { track.classList.add("snap"); idx = 0; track.style.transform = "translateX(0)"; void track.offsetWidth; track.classList.remove("snap"); busy = false; }
+    function go(to) {
+      if (busy) return;
+      if (to < 0) { track.classList.add("snap"); idx = n; track.style.transform = "translateX(" + (-n * 20) + "%)"; void track.offsetWidth; track.classList.remove("snap"); to = n - 1; }
+      idx = to; busy = true; paint();
+      var done = false;
+      function fin() { if (done) return; done = true; if (idx >= n) snapBack(); else busy = false; }
+      track.addEventListener("transitionend", function h(e) { if (e.target === track) { track.removeEventListener("transitionend", h); fin(); } });
+      setTimeout(fin, reduce ? 0 : 900);
+    }
     function stop() { if (timer) { clearInterval(timer); timer = null; } }
-    function start() { if (!timer && !userMoved && !reduce) timer = setInterval(function () { go(idx + 1, false); }, 4800); }
-    document.getElementById("next").addEventListener("click", function () { go(idx + 1, true); });
-    document.getElementById("prev").addEventListener("click", function () { go(idx - 1, true); });
-    for (var d = 0; d < n; d++) (function (k) { dots[k].addEventListener("click", function () { go(k, true); }); })(d);
-    for (var q = 0; q < n; q++) (function (k) { slots[k].addEventListener("click", function () { if (slots[k].className.indexOf("p1") > -1) go(k, true); }); })(q);
-    stage.addEventListener("mouseenter", stop);
-    stage.addEventListener("mouseleave", start);
+    function start() { if (!timer && !paused && !reduce) timer = setInterval(function () { go(idx + 1); }, 3200); }
+    for (var k = 0; k < n; k++) (function (j) { sw[j].addEventListener("click", function () { stop(); paused = true; syncPause(); go(j); }); })(k);
+    function syncPause() { if (pauseBtn) { pauseBtn.setAttribute("aria-pressed", paused ? "true" : "false"); pauseBtn.textContent = paused ? "▶" : "❚❚"; } }
+    if (pauseBtn) pauseBtn.addEventListener("click", function () { paused = !paused; syncPause(); if (paused) stop(); else start(); });
+    var x0 = null;
+    show.addEventListener("touchstart", function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    show.addEventListener("touchend", function (e) {
+      if (x0 === null) return; var dx = e.changedTouches[0].clientX - x0; x0 = null;
+      if (Math.abs(dx) > 50) { stop(); paused = true; syncPause(); go(dx < 0 ? idx + 1 : idx - 1); }
+    });
     document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); else start(); });
-    render(); start();
+    paint(); syncPause(); start();
   }
 })();
