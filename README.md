@@ -23,14 +23,18 @@ scripts, fonts, analytics, trackers or cookies.
 
 ## Colours and fonts
 
-Ink blue `#14284B` (main), oat ivory `#F4EDDD` (secondary), amber orange `#EE9B26`
+Ink blue `#152638` (main), oat ivory `#E9E5D8` (secondary), amber orange `#F18D46`
 (accent, used last and sparingly). All are CSS variables at the top of
 `assets/css/styles.css`, with a dark-mode set under `prefers-color-scheme`.
 
-Arabic text asks for **Thmanyah** first (`--font-ar`), then IBM Plex Sans Arabic.
-Thmanyah files are **not** in this repo: its licence, as published, does not allow
-re-hosting or converting the font files. Until that is resolved, visitors see the
-Plex fallback unless Thmanyah happens to be installed on their device.
+Arabic uses IBM Plex Sans Arabic (self-hosted, SIL OFL). English uses system fonts.
+
+**Thmanyah is deliberately not used.** Its licence (thmanyah's Font License, 2026)
+forbids hosting the font files on any website and forbids web embedding except
+inside a compiled, packaged or obfuscated product, and it forbids modifying or
+converting the files. A public static site would serve the files as downloads.
+Do not add them here. If Thmanyah grants a written exception (ask@thmanyah.com),
+add `@font-face` rules and put the family first in `--font-ar`.
 
 ## Editing copy
 
