@@ -11,7 +11,7 @@ One line needs a decision: *HeartPilot* is written « هارت بايلوت » i
 | # | Section | English | Arabic | Correction |
 |---|---|---|---|---|
 | 1 | Header | Join the waitlist | انضم إلى قائمة الانتظار | |
-| 2 | Hero | For family caregivers in the UAE | لأفراد العائلة الذين يرعون مرضى قصور القلب في الإمارات | |
+| 2 | Hero | For caregivers in the UAE | لمقدّمي الرعاية في الإمارات | |
 | 3 | Hero | Know sooner when your loved one’s heart failure needs attention. | اعرف مبكراً متى يحتاج مريض قصور القلب في عائلتك إلى انتباه. | |
 | 4 | Hero | They’re home from hospital. Now you’re the one watching. Is the weight creeping up? Did they take their pills? You can’t be there every hour. HeartPilot gives your family a one-minute daily check-in in English and Arabic, and lets you know when something needs attention. | مريضكم عاد إلى البيت، والآن أنتم من يراقب. هل يزداد الوزن؟ هل أخذ أدويته؟ لا يمكنكم أن تكونوا بجانبه كل ساعة. يقدّم لكم هارت بايلوت فحصاً يومياً من دقيقة بالعربية والإنجليزية، ويُعلمكم عندما يحتاج أمر ما إلى انتباه. | |
 | 5 | Hero | See how it works | شاهد كيف يعمل | |
